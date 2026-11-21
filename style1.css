@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Quicksand' , sans-serif;
+}
+
+h1 {
+    text-align: center; /*atur posisi tengah*/
+    color: rgb(18, 35, 67); /*warna tulisan*/
+    padding-top: 30px;
+}
+
+body > header{
+    background-color: rgb(77, 77, 223);
+}
+header > p {
+    text-align: center;
+    color:rgb(76, 16, 72)
+}
+
+nav {
+    background-color: rgb(115, 167, 212);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+
+li a {
+    color:rgb(49, 17, 163);
+}
+
+aside {
+    flex: 1;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content {
+    flex: 3;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20) ;
+    border-radius: 12px;
+}
+
+aside {
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+}
+
+aside header h2 {
+    color: rgb(76, 12, 239);
+    text-align: center;
+}
+
+#content article h2 {
+    color: rgb(76, 12, 239);
+    text-align: center;
+}
+
+aside header {
+    text-align: center;
+}
+
+#content > article {
+    padding: 15px;
+}
